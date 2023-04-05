@@ -16,9 +16,23 @@ header, footer {
     background-color: #1F2937;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
 }
 
 .header-links li {
