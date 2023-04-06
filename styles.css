@@ -54,7 +54,7 @@ ul {
     color: #E5E7EB;
 }
 
-.main-1 button {
+button {
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -102,15 +102,27 @@ h2 {
 
 .main-4 {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-4 {
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
 }
+
 
 footer {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
