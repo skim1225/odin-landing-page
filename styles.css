@@ -111,4 +111,6 @@ h2 {
 
 footer {
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
