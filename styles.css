@@ -47,6 +47,8 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .container-1 p {
@@ -62,6 +64,7 @@ button {
 .inner-1 {
     width: 70%;
     display: flex;
+    align-items: center;
 }
 
 .container-1, .inner-1 img {
@@ -75,7 +78,21 @@ h1 {
 }
 
 .main-2 {
-    background-color: #E5E7EB;
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-2 {
+    display: flex;
+    width: 60%;
+}
+
+.card {
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 .empty {
@@ -91,17 +108,27 @@ h2 {
 
 .main-3 {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-3 {
+    width: 60%;
 }
 
 .quote {
     color: #1F2937;
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
 }
 
+.source {
+    align-self: flex-end;
+}
+
 .main-4 {
-    background-color: #E5E7EB;
+    background-color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
